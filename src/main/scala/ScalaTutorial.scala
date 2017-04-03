@@ -9,10 +9,10 @@ object ScalaTutorial {
   }*/
 
   def makeAnagram(string: String) : String = {
-    val wordList  = string.toBuffer
-    val shuffledList = shuffle(wordList)
+    val wordBuffer  = string.toBuffer
+    val shuffledBuffer = shuffle(wordBuffer)
 
-    shuffledList.mkString("")
+    shuffledBuffer.mkString("")
   }
   def countUpperCaseChars(string:String) : Int = {
     var i = 0

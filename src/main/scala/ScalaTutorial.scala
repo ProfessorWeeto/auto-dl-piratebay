@@ -6,14 +6,12 @@ object ScalaTutorial {
     val input = "Michael"
 
     makeAnagram(input)
-
-
-
   }
+
   def makeAnagram(string: String): Unit = {
     val wordList  = string.toBuffer
     val shuffledList = shuffle(wordList)
 
-    println(shuffledList.mkString(""))
+    shuffledList.mkString("")
   }
 }

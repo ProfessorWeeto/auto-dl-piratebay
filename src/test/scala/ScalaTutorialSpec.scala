@@ -1,15 +1,19 @@
-import ScalaTutorial._
 import org.specs2.mutable._
+import ScalaTutorial._
 
 class ScalaTutorialSpec extends Specification {
-  val input = "TestMePlease"
-    "The output string" should {
+  val testInput = "TestMePlease"
+  val testOutput: String = makeAnagram(testInput)
 
+    "The output string" should {
       "have the same length as the input string" in {
-        "TestMePlease" must have length input.length
+        testOutput.length must beEqualTo(testInput.length)
       }
       "not be identical to the input string" in {
-        "TestMePlease" must not be "Butt"
+        testOutput must not be testInput
+      }
+      "have the same number of uppercase characters" in {
+        countUpperCaseChars(testOutput) must beEqualTo(countUpperCaseChars(testInput))
       }
     }
 }

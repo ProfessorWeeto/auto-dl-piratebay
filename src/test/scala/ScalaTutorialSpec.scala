@@ -2,10 +2,10 @@ import org.specs2.mutable._
 import ScalaTutorial._
 
 class ScalaTutorialSpec extends Specification {
-  val testInput = "TestMePlease"
+  val testInput: String = "TestMePlease"
   val testOutput: String = makeAnagram(testInput)
 
-    "The output string" should {
+    "The Anagram" should {
       "have the same length as the input string" in {
         testOutput.length must beEqualTo(testInput.length)
       }

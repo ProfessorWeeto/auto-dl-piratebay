@@ -2,7 +2,7 @@ import scala.util.Random._
 
 object WordJumble {
 
-  /* def debug(args:Array[String]): Unit = {
+   /*def main(args:Array[String]): Unit = {
     val input = "Debug"
 
     println(makeAnagram(input))

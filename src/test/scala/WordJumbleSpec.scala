@@ -1,4 +1,5 @@
 import org.specs2.mutable._
+
 import WordJumble._
 
 class WordJumbleSpec extends Specification {

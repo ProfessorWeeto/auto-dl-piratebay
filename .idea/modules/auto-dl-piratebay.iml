@@ -25,14 +25,13 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.12.1:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.12.1:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang.modules:scala-xml_2.12:1.0.5:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-core_2.12:7.2.7:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-effect_2.12:7.2.7:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-common_2.12:3.8.9:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-core_2.12:3.8.9:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-matcher_2.12:3.8.9:jar" level="project" />
-    <orderEntry type="library" name="scala-sdk-2.12.1" level="application" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-core_2.12:3.8.9:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-common_2.12:3.8.9:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-effect_2.12:7.2.7:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-core_2.12:7.2.7:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang.modules:scala-xml_2.12:1.0.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.12.1:jar" level="project" />
   </component>
 </module>
